@@ -98,7 +98,7 @@ Veri seti, müşteri bilgilerini içeren çeşitli özellikler sunmaktadır:
 2. **Veri Temizleme**: 'No phone service' ve 'No internet service' değerlerini 'No' ile değiştirdik.
 3. **Kategorik ve Sayısal Veriler**: Kategorik ve sayısal değişkenler ayrıştırıldı, veri dağılımları ve hedef değişken ile ilişkileri incelendi.
 
-##Analiz ve Görselleştirme
+## Analiz ve Görselleştirme
 
 Veri analizi ve görselleştirme aşamasında, veri dağılımları, kategorik değişkenlerin dağılımları ve hedef değişkenle ilişkileri incelenmiştir. Görselleştirme işlemleri, veri içindeki desenleri ve ilişkileri daha iyi anlamamıza yardımcı olmuştur.
 
