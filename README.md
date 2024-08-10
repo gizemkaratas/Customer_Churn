@@ -48,28 +48,9 @@ Veri seti, müşteri bilgilerini içeren çeşitli özellikler sunmaktadır:
 2. **Veri Temizleme**: 'No phone service' ve 'No internet service' değerlerini 'No' ile değiştirdik.
 3. **Kategorik ve Sayısal Veriler**: Kategorik ve sayısal değişkenler ayrıştırıldı, veri dağılımları ve hedef değişken ile ilişkileri incelendi.
 
-```python
-import pandas as pd
-
-# Veri yükleme
-df = pd.read_csv('Telco-Customer-Churn.csv')
-
-# Veri tipi hatalarını düzeltme
-df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce')
-
-# 'No phone service' ve 'No internet service' değerlerini 'No' ile değiştirme
-df.replace('No phone service', 'No', inplace=True)
-df.replace('No internet service', 'No', inplace=True)
-
-
-
-Tabii, işte tüm bilgileri tek bir README dosyasında birleştiren kod:
-
-markdown
-Kodu kopyala
 # Müşteri Churn Tahmini Projesi
 
-Bu proje, müşteri kaybını (churn) tahmin etmek amacıyla makine öğrenmesi yöntemlerini kullanarak veri analizi ve modelleme işlemlerini içermektedir. Proje, Telco-Customer-Churn veri setini kullanarak müşterilerin şirketten ayrılma olasılıklarını tahmin etmeye yönelik bir model geliştirmeyi hedefler.
+Bu proje, müşteri kaybını (churn) tahmin etmek amacıyla makine öğrenmesi yöntemlerini kullanarak veri analizi ve modelleme işlemlerini içermektedir. Proje, Telco-Customer-Churn veri setini kullanarak müşterilerin şirketten ayrılma olasılıklarını tahmin etmeye yönelik bir model geliştirmeyi hedeflemektedir.
 
 ## İçindekiler
 
@@ -116,19 +97,6 @@ Veri seti, müşteri bilgilerini içeren çeşitli özellikler sunmaktadır:
 1. **Eksik Veriler**: `TotalCharges` sütunundaki veri tipini düzelttik. 
 2. **Veri Temizleme**: 'No phone service' ve 'No internet service' değerlerini 'No' ile değiştirdik.
 3. **Kategorik ve Sayısal Veriler**: Kategorik ve sayısal değişkenler ayrıştırıldı, veri dağılımları ve hedef değişken ile ilişkileri incelendi.
-
-```python
-import pandas as pd
-
-# Veri yükleme
-df = pd.read_csv('Telco-Customer-Churn.csv')
-
-# Veri tipi hatalarını düzeltme
-df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce')
-
-# 'No phone service' ve 'No internet service' değerlerini 'No' ile değiştirme
-df.replace('No phone service', 'No', inplace=True)
-df.replace('No internet service', 'No', inplace=True)
 
 ##Analiz ve Görselleştirme
 
