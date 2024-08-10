@@ -14,7 +14,7 @@ Bu proje, müşteri kaybını (churn) tahmin etmek amacıyla makine öğrenmesi 
 
 ## Proje Açıklaması
 
-Bu projede, Telco-Customer-Churn veri seti kullanılarak müşteri kaybını tahmin etmek için çeşitli makine öğrenmesi algoritmaları uygulanmıştır. Veri analizi, veri temizleme ve modelleme süreçleri adım adım ele alınmıştır.
+Bu projede,  [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) veri seti kullanılarak müşteri kaybını tahmin etmek için çeşitli makine öğrenmesi algoritmaları uygulanmıştır. Veri analizi, veri temizleme ve modelleme süreçleri adım adım ele alınmıştır.
 
 ## Veri Seti
 
