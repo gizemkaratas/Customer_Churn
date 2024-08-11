@@ -56,23 +56,26 @@ Veri analizi ve görselleştirme aşamasında, veri dağılımları, kategorik d
 
 Aşağıdaki tablo, farklı makine öğrenmesi algoritmalarının performansını göstermektedir:
 
-| Model                   | Accuracy           |
-|-------------------------|---------------------|
-| Logistic Regression     | 0.788               |
-| Random Forest           | 0.787               |
-| Support Vector Machine  | 0.790               |
-| K-Nearest Neighbors     | 0.749               |
+### Model Performans Tablosu
+
+| Model                | Doğruluk Skoru |
+|----------------------|----------------|
+| Logistic Regression  | 0.8012         |
+| K-Nearest Neighbors  | 0.7695         |
+| Decision Tree        | 0.7392         |
+| Random Forest        | 0.7937         |
+
 
 ## Optimize Edilmiş SVM Metrikleri
 
 Aşağıdaki tablo, optimize edilmiş SVM modelinin performans metriklerini göstermektedir:
 
-| Metric         | Value                |
-|----------------|----------------------|
-| **Accuracy**   | 0.795                |
-| **ROC AUC**    | 0.675                |
-| **Recall**     | 0.434                |
-| **Precision**  | 0.634                |
+### Sonuç Performans Tablosu
+
+| Model                | Doğruluk Skoru | ROC AUC Skoru | Precision  |
+|----------------------|----------------|---------------|------------|
+| Logistic Regression  | 0.8031         | 0.7157        | 0.7179     |
+
 
 ### Confusion Matrix
 
