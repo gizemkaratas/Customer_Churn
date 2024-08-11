@@ -77,21 +77,4 @@ Aşağıdaki tablo, optimize edilmiş SVM modelinin performans metriklerini gös
 | Logistic Regression  | 0.8031         | 0.7157        | 0.7179     |
 
 
-### Confusion Matrix
 
-Aşağıda, optimize edilmiş SVM modelinin konfizyon matrisini bulabilirsiniz:
-
-
-- **True Negatives (TN)**: 1445
-- **False Positives (FP)**: 133
-- **False Negatives (FN)**: 300
-- **True Positives (TP)**: 230
-
-### Açıklamalar
-
-- **Accuracy**: Modelin genel doğru tahmin oranını gösterir.
-- **ROC AUC**: Modelin sınıflandırma performansını, özellikle sınıflar arasındaki ayrımı değerlendirir.
-- **Recall**: Pozitif sınıfları doğru şekilde tahmin etme yeteneğini ölçer.
-- **Precision**: Modelin pozitif tahminlerinin ne kadar doğru olduğunu gösterir.
-
-Confusion matrix, modelin doğru ve yanlış tahminlerini ayrıntılı olarak sunar.
